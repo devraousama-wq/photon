@@ -1,0 +1,3 @@
+add_executable(photon_smoke_test smoke_test.cpp)
+target_link_libraries(photon_smoke_test PRIVATE photon_core)
+add_test(NAME photon_smoke_test COMMAND photon_smoke_test)
