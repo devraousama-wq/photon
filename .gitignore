@@ -1,0 +1,14 @@
+build/
+cmake-build-*/
+out/
+.vscode/
+.idea/
+*.user
+*.swp
+.DS_Store
+.env
+compile_commands.json
+*.ppm
+*.exr
+*.png
+render_*
