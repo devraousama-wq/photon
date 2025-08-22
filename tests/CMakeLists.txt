@@ -1,3 +1,7 @@
 add_executable(photon_smoke_test smoke_test.cpp)
 target_link_libraries(photon_smoke_test PRIVATE photon_core)
 add_test(NAME photon_smoke_test COMMAND photon_smoke_test)
+
+add_executable(photon_math_test math_test.cpp)
+target_link_libraries(photon_math_test PRIVATE photon_core GTest::gtest_main)
+add_test(NAME photon_math_test COMMAND photon_math_test)
