@@ -10,6 +10,18 @@ add_executable(photon_geometry_test geometry_test.cpp)
 target_link_libraries(photon_geometry_test PRIVATE photon_core GTest::gtest_main)
 add_test(NAME photon_geometry_test COMMAND photon_geometry_test)
 
+add_executable(photon_bvh_test bvh_test.cpp)
+target_link_libraries(photon_bvh_test PRIVATE photon_core GTest::gtest_main)
+add_test(NAME photon_bvh_test COMMAND photon_bvh_test)
+
 add_executable(photon_materials_test materials_test.cpp)
 target_link_libraries(photon_materials_test PRIVATE photon_core GTest::gtest_main)
 add_test(NAME photon_materials_test COMMAND photon_materials_test)
+
+add_executable(photon_sampler_test sampler_test.cpp)
+target_link_libraries(photon_sampler_test PRIVATE photon_core GTest::gtest_main)
+add_test(NAME photon_sampler_test COMMAND photon_sampler_test)
+
+add_executable(photon_camera_test camera_test.cpp)
+target_link_libraries(photon_camera_test PRIVATE photon_core GTest::gtest_main)
+add_test(NAME photon_camera_test COMMAND photon_camera_test)
