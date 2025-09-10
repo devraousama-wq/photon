@@ -1,6 +1,8 @@
 #pragma once
 
-#include "photon/lights/area_light.hpp"
+#include "photon/lights/light.hpp"
+
+#include <cmath>
 
 namespace photon::lights {
 
