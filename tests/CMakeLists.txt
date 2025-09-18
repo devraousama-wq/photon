@@ -22,6 +22,14 @@ add_executable(photon_sampler_test sampler_test.cpp)
 target_link_libraries(photon_sampler_test PRIVATE photon_core GTest::gtest_main)
 add_test(NAME photon_sampler_test COMMAND photon_sampler_test)
 
+add_executable(photon_camera_test camera_test.cpp)
+target_link_libraries(photon_camera_test PRIVATE photon_core GTest::gtest_main)
+add_test(NAME photon_camera_test COMMAND photon_camera_test)
+
 add_executable(photon_lights_test lights_test.cpp)
 target_link_libraries(photon_lights_test PRIVATE photon_core GTest::gtest_main)
 add_test(NAME photon_lights_test COMMAND photon_lights_test)
+
+add_executable(photon_integrator_test integrator_test.cpp)
+target_link_libraries(photon_integrator_test PRIVATE photon_core GTest::gtest_main)
+add_test(NAME photon_integrator_test COMMAND photon_integrator_test)
