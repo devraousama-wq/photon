@@ -3,8 +3,11 @@
 #include "photon/image/film.hpp"
 #include "photon/integrators/path_tracer.hpp"
 #include "photon/scene/scene.hpp"
+#include "photon/math/ray.hpp"
+#include "photon/math/vec3.hpp"
 #include "photon/samplers/sampler.hpp"
 
+#include <algorithm>
 #include <atomic>
 #include <stop_token>
 #include <thread>
