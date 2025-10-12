@@ -1,0 +1,22 @@
+{
+  "width": 256,
+  "height": 256,
+  "samples": 16,
+  "max_depth": 6,
+  "tile_size": 32,
+  "threads": 4,
+  "seed": 19,
+  "origin": [0.0, 1.5, 6.0],
+  "look_at": [0.0, 1.0, 0.0],
+  "up": [0.0, 1.0, 0.0],
+  "fov": 40.0,
+  "floor_color": [0.9, 0.9, 0.9],
+  "left_color": [0.9, 0.2, 0.2],
+  "right_color": [0.2, 0.2, 0.9],
+  "sphere_center": [0.0, 1.0, 0.0],
+  "sphere_radius": 1.0,
+  "light_corner": [-0.8, 2.98, -0.8],
+  "light_u": [1.6, 0.0, 0.0],
+  "light_v": [0.0, 0.0, 1.6],
+  "light_radiance": [14.0, 14.0, 14.0]
+}
