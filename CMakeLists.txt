@@ -10,6 +10,8 @@ option(PHOTON_BUILD_TESTS "Build unit tests" ON)
 
 add_library(photon_core
     src/config.cpp
+    src/accel/bvh.cpp
+    src/scene/json_loader.cpp
 )
 target_include_directories(photon_core PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 

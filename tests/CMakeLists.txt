@@ -33,3 +33,7 @@ add_test(NAME photon_lights_test COMMAND photon_lights_test)
 add_executable(photon_integrator_test integrator_test.cpp)
 target_link_libraries(photon_integrator_test PRIVATE photon_core GTest::gtest_main)
 add_test(NAME photon_integrator_test COMMAND photon_integrator_test)
+
+add_executable(photon_scene_test scene_test.cpp)
+target_link_libraries(photon_scene_test PRIVATE photon_core GTest::gtest_main)
+add_test(NAME photon_scene_test COMMAND photon_scene_test)
